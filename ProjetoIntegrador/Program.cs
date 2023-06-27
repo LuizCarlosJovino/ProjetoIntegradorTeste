@@ -5,7 +5,6 @@ using ProjetoIntegrador;
 Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 Console.WriteLine("     Seja Bem Vindo Ao Trampou     ");
 Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-Console.WriteLine("Airon Leonardo");
 Console.WriteLine("                                   ");
 
 var menu = new Menu();

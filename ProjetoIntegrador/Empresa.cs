@@ -69,22 +69,22 @@ namespace ProjetoIntegrador
         {
 
 
-            Console.WriteLine("informe o nome da Empresa:");
+            Console.WriteLine("Informe o nome da Empresa:");
             Nome = Console.ReadLine();
 
-            Console.WriteLine("informe o CNPJ da Empresa:");
+            Console.WriteLine("Informe o CNPJ da Empresa:");
             CNPJ = Console.ReadLine();
 
-            Console.WriteLine("informe o Email da Empresa:");
+            Console.WriteLine("Informe o Email da Empresa:");
             Email = Console.ReadLine();
 
-            Console.WriteLine("informe o Telefone da Empresa:");
+            Console.WriteLine("Informe o Telefone da Empresa:");
             Telefone = Console.ReadLine();
 
-            Console.WriteLine("informe o Endereço da Empresa:");
+            Console.WriteLine("Informe o Endereço da Empresa:");
             Endereco = Console.ReadLine();
 
-            Console.WriteLine("informe o Observações da Empresa:");
+            Console.WriteLine("Informe o Observações da Empresa:");
             Observacoes = Console.ReadLine();
 
 

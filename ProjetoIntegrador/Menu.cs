@@ -159,7 +159,7 @@ namespace ProjetoIntegrador
             Console.WriteLine($"6 - Observaçoes");
             Console.WriteLine($"Salvar - Salvar alterações");
 
-            Console.WriteLine("\n Informe o campo que deseja alterar:");
+            Console.WriteLine("\nInforme o campo que deseja alterar:");
             var entrada = Console.ReadLine().ToUpper();
 
 
@@ -211,19 +211,19 @@ namespace ProjetoIntegrador
                 Console.WriteLine($"6 - Observaçoes");
                 Console.WriteLine($"Salvar - Salvar alterações");
 
-                Console.WriteLine("\n Escrevar Salvar se tiver tudo certo:");
+                Console.WriteLine("\n Escrevar Salvar se tiver tudo certo: / Ou informe o campo que deseja alterar:");
                 entrada = Console.ReadLine().ToUpper();
 
                 
 
-                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-                Console.WriteLine("        Alterado Com Sucesso!      ");
-                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                
 
             }
+            Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            Console.WriteLine("        Alterado Com Sucesso!      ");
+            Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
-
-                empresa.Update();
+            empresa.Update();
         }
     }
 }

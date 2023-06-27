@@ -4,7 +4,7 @@ using ProjetoIntegrador;
 
 Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 Console.WriteLine("     Seja Bem Vindo Ao Trampou     ");
-Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");//fazendo merda
+Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");//Pedro Bisneto
 Console.WriteLine("                                   ");
 
 var menu = new Menu();

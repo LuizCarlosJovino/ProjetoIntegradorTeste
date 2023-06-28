@@ -34,7 +34,7 @@ namespace ProjetoIntegrador
                     var empresas = Empresa.GetAll();
 
                     ListarEmpresas(empresas);
-                    Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                    //Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
                     Console.ReadLine();
 
@@ -135,7 +135,9 @@ namespace ProjetoIntegrador
             }
             foreach (var empresa in items)
             {
+                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
                 Console.WriteLine($" ID : {empresa.ID_Empresa} \n Nome : {empresa.Nome} \n CNPJ : {empresa.CNPJ} \n Email: {empresa.Email} \n Telefone : {empresa.Telefone} \n Endereco : {empresa.Endereco} \n Observacoes : {empresa.Observacoes}");
+                Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             }
         }
         // usado para deleta empresa 
